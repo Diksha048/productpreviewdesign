@@ -31,3 +31,10 @@ body{
     border: 2px solid black;
     cursor: pointer;   
 }
+.company-name{
+    margin-top: -400px;
+    margin-left: 50%;
+}
+.off{
+    color: #97BE5A;
+}
