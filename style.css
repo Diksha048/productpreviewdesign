@@ -3,16 +3,31 @@ body{
 }
 .product-img{
     height: 450px;
-    width: 350px;
+    width: 425px;
     object-fit: cover;
     margin-left: 50px;
     margin-top: 30px;
-    border-radius: 10%;
+    border-radius: 5%;
+    border: 2px solid black;
+    box-shadow: 0 0 10px 0 #FFD0D0;
+    cursor: pointer;
 }
 .main-container{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4ccE4KMmm1c1eEB3m9cCVbm0JRBvf1P27vA&s);
+    background-image: url(https://wallpapercave.com/wp/wp3469892.jpg);
     height: 650px;
     width: 1000px;
     margin: 50px auto;
     border-radius: 20px;
+}
+.img-slider{
+    margin-top: -200px;
+    margin-left: 325px;
+}
+.slider-img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;   
 }
