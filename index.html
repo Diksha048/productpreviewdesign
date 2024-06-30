@@ -8,14 +8,15 @@
 </head>
 <body>
     <div class="main-container">
-        <img src="./img/1imgg.jpg" class="product-img">
+        <img src="./img/1imgg.jpg" class="product-img" id="main-product-image">
     </div>
     <div  class="img-slider">
-        <img src="./img/1imgg.jpg" class="slider-img">
-        <img src="./img/2img.jpg" class="slider-img">
-        <img src="./img/3img.jpg" class= "slider-img">
-        <img src="./img/4img.jpg" class="slider-img">
-        <img src="./img/5img.jpg" class="slider-img">
+        <img src="./img/1imgg.jpg" class="slider-img" onclick="changeImage('./img/1imgg.jpg')"/>
+        <img src="./img/2img.jpg" class="slider-img" onclick="changeImage('./img/2img.jpg')"/>
+        <img src="./img/3img.jpg" class= "slider-img" onclick="changeImage('./img/3img.jpg')"/>
+        <img src="./img/4img.jpg" class="slider-img" onclick="changeImage('./img/4img.jpg')"/>
+        <img src="./img/5img.jpg" class="slider-img" onclick="changeImage('./img/5img.jpg')"/>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
