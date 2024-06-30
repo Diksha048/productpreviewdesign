@@ -1,0 +1,18 @@
+body{
+    background-color: slategray;
+}
+.product-img{
+    height: 450px;
+    width: 350px;
+    object-fit: cover;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 10%;
+}
+.main-container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4ccE4KMmm1c1eEB3m9cCVbm0JRBvf1P27vA&s);
+    height: 650px;
+    width: 1000px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
